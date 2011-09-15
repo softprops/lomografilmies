@@ -1,0 +1,133 @@
+* { margin:0; padding:0; }
+
+body { font-family:helvetica; font-size:32px; }
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-bottom:1px solid #eee;
+}
+
+.instructions {
+  font-size:smaller;
+}
+
+input[type="submit"], option, select { font-size:32px; }
+
+input[type="file"] { margin:.01em 0; padding:.5em; font-size:24px; }
+
+label { font-size:20px;}
+
+img { border:2px solid #eee; }
+
+ul { list-style:none; padding:0; }
+
+li { float: left; }
+
+#container { width:600px; margin:1em auto;}
+
+.s { color:#eee; }
+
+.lom { color:#FF0099; }
+
+a:link, a:visited {
+    color:inherit;
+    text-decoration:none;
+}
+
+form { display:inline; }
+
+.btn {
+    border:1px solid #ccc;
+    border-radius:4px;
+    background:#eee;
+    padding:.25em;
+    margin:.25em;
+    -moz-box-shadow:0px 0px 6px #ccc;
+    -webkit-box-shadow:0px 0px 6px #ccc;
+    box-shadow:0px 0px 6px #ccc;
+}
+
+.publish {
+    padding-right:1em;
+    background:url(/assets/img/publish.png) 95% 50% no-repeat;
+}
+
+.refresh {
+  padding-right:1em;
+  background:url(/assets/img/refresh.png) 98% 50% no-repeat;
+}
+
+form div {
+    margin:.25em 0;
+}
+
+li img:hover {
+    opacity:1.0;
+}
+
+#errors div {
+    font-size:smaller;
+    font-weight:bold;
+    color:#F00074;
+    margin:.5em 0;
+}
+
+#photo label { display:block; font-size:larger; }
+#speed { display:none; }
+#cut { display:none }
+#up-submit { display:none; }
+
+#reel li {
+    float:left;
+    width:150px;
+    margin:.25em;
+    padding:.25em;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    padding:.25em;
+    background:#eee;
+    border:1px solid #ccc;
+    text-align:center;
+    -moz-box-shadow:0px 0px 2px #ccc;
+    -webkit-box-shadow:0px 0px 2px #ccc;
+    box-shadow:0px 0px 2px #ccc;
+}
+
+#reel li.selected {
+    -moz-box-shadow:0px 0px 4px #25D2FD;
+    -webkit-box-shadow:0px 0px 4px #25D2FD;
+    box-shadow:0px 0px 4px #25D2FD;
+    border:1px solid #25D2FD;
+}
+
+#reel li img {
+    max-width:120px;
+}
+
+#reel .i {
+    text-align:right;
+    font-family: 'Alice', serif;
+    color: #ccc;
+}
+
+#reel li.selected .i {
+  color:#333;
+}
+
+#filmie-gif {
+    text-align:center;
+    margin:.25em auto;
+    background:#333;
+    padding:.5em;
+}
+
+#filmie-gif img {
+  padding:0 .25em;
+  border-left:8px #70666B dotted;
+  border-right:8px #70666B dotted;
+}
+
+#update-film select[name='frames'] {
+  display:none;
+}
